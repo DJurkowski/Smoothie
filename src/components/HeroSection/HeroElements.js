@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { mainColor, hoverColor } from '../../utils/globalStyles/globalStyles';
 
-// const mainColor = '#F65353';
-
 export const HeroContainer = styled.div`
     height: 800px;
     position: relative;

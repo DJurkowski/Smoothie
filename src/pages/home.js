@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Hero from '../components/Hero';
+import Cards from '../components/CardsSection';
+import Hero from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Navbar/Sidebar';
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Navbar toggle={setIsOpen} />
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Hero />
+            <Cards />
         </>
     );
 };
