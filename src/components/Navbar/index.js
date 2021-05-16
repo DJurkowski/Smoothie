@@ -21,6 +21,9 @@ const Navbar = ({ toggle: sideBarToggle }) => {
                         <NavLinks to="health" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Health</NavLinks>
                     </NavItem>
                     <NavItem>
+                        <NavLinks to="benefits" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Benefits</NavLinks>
+                    </NavItem>
+                    <NavItem>
                         <NavLinks to="experience" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Experience</NavLinks>
                     </NavItem>
                 </NavMenu>
