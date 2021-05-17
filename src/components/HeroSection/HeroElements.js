@@ -3,9 +3,14 @@ import { motion } from 'framer-motion';
 import { mainColor, hoverColor } from '../../utils/globalStyles/globalStyles';
 
 export const HeroContainer = styled.div`
-    height: 800px;
+    height: auto;
     position: relative;
     z-index: 20;
+    /* padding-bottom: 120px; */
+
+    @media screen and (max-width: 768px) {
+        padding: 0 0 100px 0;
+    }
 `;
 
 export const Circle = styled.div`
@@ -16,12 +21,41 @@ export const Circle = styled.div`
     height: 100%;
     background: ${mainColor};
     clip-path: circle(370px at right 400px);
+
+    @media screen and (max-width: 768px) {
+        clip-path: circle(300px at right 400px);
+    }
+
+    @media screen and (max-width: 726px) {
+        display: none;
+    }
 `;
 
 export const ContentContainer = styled.div`
     display: grid;
-    grid-template-columns: 1fr 0.7fr;
-    height: 700px;
+    z-index: 1;
+    height: 860px;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;
+
+    @media screen and (max-width: 726px) {
+        height: auto;
+    }
+`;
+
+export const ContentColumns = styled.div`
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr);
+    align-items: flex-start;
+    grid-template-areas: 'col1 col2';
+
+    @media screen and (max-width: 726px) {
+        grid-template-areas: 'col1 col1';
+    }
 `;
 
 const Column = styled.div`
@@ -34,10 +68,17 @@ export const ColumnLeft = styled(Column)`
     padding-top: 100px;
     padding-left: 6rem;
     align-items: flex-start;
+    z-index: 5;
+    grid-column: col1;
 `;
 
 export const ColumnRight = styled(Column)`
     position: relative;
+    grid-column: col2;
+
+    @media screen and (max-width: 726px) {
+        display: none;
+    }
 `;
 
 export const ItemHeader = styled(motion.h2)`
@@ -60,7 +101,10 @@ export const ItemParagraph = styled.p`
 export const Image = styled(motion.img)`
     z-index: 10;
     height: 500px;
+    left: 8%;
     position: absolute;
-    max-height: 500px;
-    max-width: 315px;
+
+    @media screen and (max-width: 726px) {
+        display: none;
+    }
 `;
