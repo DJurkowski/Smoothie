@@ -33,7 +33,7 @@ const useForm = (validateForm) => {
            
             // TODO: Here add api request
         }
-    }, [errors]);
+    }, [errors, isSubmitting]);
 
     return { handleChange, values, handleSubmit, errors };
 };

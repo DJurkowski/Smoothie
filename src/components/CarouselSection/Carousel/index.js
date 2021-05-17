@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { CarouselContainer, Image, ImageWrapper, CarouselNextArrow, CarouselPrevArrow } from './CarouselElements';
-import { motion, AnimatePresence } from "framer-motion";
+import { CarouselContainer, Image, CarouselNextArrow, CarouselPrevArrow } from './CarouselElements';
+import { AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 
 const Carousel = ({ images }) => {

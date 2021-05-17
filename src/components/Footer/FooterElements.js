@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
-import { mainColor, hoverColor, secondFontFamily } from '../../utils/globalStyles/globalStyles';
+import { hoverColor, secondFontFamily } from '../../utils/globalStyles/globalStyles';
 
 export const FooterContainer = styled.footer`
     background: ${hoverColor};

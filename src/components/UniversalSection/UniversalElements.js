@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mainColor, hoverColor } from '../../utils/globalStyles/globalStyles';
+import { mainColor } from '../../utils/globalStyles/globalStyles';
 
 export const UniversalContainer = styled.div`
     display: grid;
