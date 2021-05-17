@@ -19,8 +19,20 @@ export const muscleSection = {
 }
 
 export const carouselSection = [
-    Banana,
-    Berries,
-     Kiwi,
-     Strawberry,
+    {
+        image: Banana,
+        alt: 'banana'
+    },
+    {
+        image: Berries,
+        alt: 'berries'
+    },
+    {
+        image: Kiwi,
+        alt: 'kiwi'
+    },
+    {
+        image: Strawberry,
+        alt: 'strawberry'
+    }
 ];
