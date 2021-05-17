@@ -15,7 +15,7 @@ const Navbar = ({ toggle: sideBarToggle }) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
+                        <NavLinks to="home" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Home</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="health" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Health</NavLinks>
