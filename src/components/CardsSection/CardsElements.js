@@ -10,7 +10,7 @@ export const CardsContainer = styled.div`
 `;
 
 export const CardsHeader = styled.h2`
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #000;
     margin-bottom: 64px;
 `;
