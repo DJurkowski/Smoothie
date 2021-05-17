@@ -16,6 +16,11 @@ const UniversalSection = ({data}) => {
                             <ContentButton>
                                 <Button
                                     to={buttonDirection}
+                                    smooth={true} 
+                                    duration={500} 
+                                    spy={true} 
+                                    exact='true' 
+                                    offset={-80}
                                 >{button}</Button>
                             </ContentButton>
                         </ContentText>
