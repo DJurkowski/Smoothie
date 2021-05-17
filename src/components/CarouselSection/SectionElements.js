@@ -16,7 +16,7 @@ export const SectionWrapper = styled.div`
 `;
 
 export const SectionHeader = styled.h1`
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #000;
     margin: 0 20px 30px 20px;
 

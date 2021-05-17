@@ -12,7 +12,7 @@ export const NewsletterContainer = styled.div`
 
 export const NewsletterHeader = styled.h2`
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #000;
     margin-bottom: 64px;
 `;
