@@ -4,6 +4,7 @@ import CarouselSection from '../components/CarouselSection';
 import Hero from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Navbar/Sidebar';
+import Newsletter from '../components/Newsletter';
 import UniversalSection from '../components/UniversalSection';
 
 import { muscleSection } from '../utils/data/sections';
@@ -24,6 +25,7 @@ const Home = () => {
             <Cards />
             <UniversalSection data={muscleSection}/>
             <CarouselSection />
+            <Newsletter />
         </>
     );
 };
