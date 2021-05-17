@@ -53,7 +53,7 @@ export const ContentText = styled.div`
 
 export const ContentHeader = styled.h1`
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 3rem;
     text-align: left;
     line-height: 1.1;
     font-weight: 600;
