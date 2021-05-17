@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Cards from '../components/CardsSection';
+import CarouselSection from '../components/CarouselSection';
 import Hero from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Navbar/Sidebar';
@@ -22,6 +23,7 @@ const Home = () => {
             <Hero />
             <Cards />
             <UniversalSection data={muscleSection}/>
+            <CarouselSection />
         </>
     );
 };
