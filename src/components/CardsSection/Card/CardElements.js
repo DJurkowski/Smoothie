@@ -10,7 +10,8 @@ export const CardContainer = styled.div`
     max-width: 250px;
     min-height: 350px;
     height: auto;
-
+    text-align: center;
+    
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
