@@ -11,6 +11,11 @@ export const UniversalContainer = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        height: auto;
+        padding-bottom: 120px;
+    }
 `;
 
 export const ContentWrapper = styled.div`
@@ -20,7 +25,7 @@ export const ContentWrapper = styled.div`
     grid-template-areas: ${({imageSide}) => (imageSide ? `'col2 col1'` : `'col1 col2'`)};
     
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imageSide}) => (imageSide ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        grid-template-areas: ${({imageSide}) => (imageSide ? `'col1'` : `'col1 col1' 'col2 col2'`)};
     }
 `;
 
@@ -34,6 +39,10 @@ export const ColumnRight = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const ContentText = styled.div`
@@ -82,8 +91,4 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
 `;
