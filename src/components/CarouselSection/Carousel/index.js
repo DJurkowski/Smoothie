@@ -15,12 +15,11 @@ const Carousel = ({ images }) => {
      <CarouselContainer>
      <CarouselPrevArrow onClick={() => paginate(-1)} />
      <AnimatePresence initial={false} custom={direction}>
-        
         <Image
           key={page}
-          src={images[imageIndex]}
+          src={images[imageIndex].image}
+          alt={images[imageIndex].alt}
           custom={direction}
-          // variants={variants}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
