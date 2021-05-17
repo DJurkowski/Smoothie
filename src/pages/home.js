@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Cards from '../components/CardsSection';
 import CarouselSection from '../components/CarouselSection';
+import Footer from '../components/Footer';
 import Hero from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Navbar/Sidebar';
@@ -26,6 +27,7 @@ const Home = () => {
             <UniversalSection data={muscleSection}/>
             <CarouselSection />
             <Newsletter />
+            <Footer />
         </>
     );
 };
