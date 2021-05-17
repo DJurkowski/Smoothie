@@ -1,6 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { HeroContainer, Circle, ContentContainer, ContentColumns, ColumnLeft, ColumnRight, ItemHeader, HeaderSpecial, Image, ImageSecond, ItemParagraph } from './HeroElements';
+import { HeroContainer, Circle, ContentContainer, ContentColumns, ColumnLeft, ColumnRight, ItemHeader, HeaderSpecial, Image, ItemParagraph } from './HeroElements';
 import Cup from '../../utils/images/Cup.svg';
 import { Button } from '../Button/ButtonElements';
 
