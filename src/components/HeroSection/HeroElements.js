@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { mainColor, hoverColor } from '../../utils/globalStyles/globalStyles';
+import { mainColor } from '../../utils/globalStyles/globalStyles';
 
 export const HeroContainer = styled.div`
     height: auto;
     position: relative;
     z-index: 20;
-    /* padding-bottom: 120px; */
 
     @media screen and (max-width: 768px) {
         padding: 0 0 100px 0;
