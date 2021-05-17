@@ -6,6 +6,7 @@ import Hero from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Navbar/Sidebar';
 import Newsletter from '../components/Newsletter';
+import ScrollToTop from '../components/ScrollButton';
 import UniversalSection from '../components/UniversalSection';
 
 import { muscleSection } from '../utils/data/sections';
@@ -28,6 +29,7 @@ const Home = () => {
             <CarouselSection />
             <Newsletter />
             <Footer />
+            <ScrollToTop />
         </>
     );
 };
