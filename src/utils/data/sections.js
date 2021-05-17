@@ -1,4 +1,9 @@
 import Circles from '../images/MuscleSection/Circles.svg';
+import Banana from '../images/CarouselSection/Banana.svg';
+import Berries from '../images/CarouselSection/Berries.svg';
+import Kiwi from '../images/CarouselSection/Kiwi.svg';
+import Strawberry from '../images/CarouselSection/Strawberry.svg';
+
 export const muscleSection = {
 
     id: 'benefits', 
@@ -12,3 +17,10 @@ export const muscleSection = {
     alternativeName: 'Loose weight', 
     imageSide: true
 }
+
+export const carouselSection = [
+    Banana,
+    Berries,
+     Kiwi,
+     Strawberry,
+];
