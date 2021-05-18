@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
-
-const mainColor = '#F65353';
-const hoverColor = '#E04A4A';
+import { mainColor, hoverColor, secondFontFamily } from '../../utils/globalStyles/globalStyles';
 
 export const Nav = styled.nav`
     background: transparent;
@@ -12,7 +10,7 @@ export const Nav = styled.nav`
     align-items: center;
     font-size: 1rem;
     z-index: 10;
-    font-family: 'Caveat', cursive;
+    font-family: ${secondFontFamily};
     font-size: 1.5rem;
 `;
 
@@ -85,7 +83,7 @@ export const NavLinks = styled(LinkS)`
     }
 
     &.active {
-        border-bottom: 3px solid #06DE9C;
+        border-bottom: 3px solid ${mainColor};
     }
 
 `;
