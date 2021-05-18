@@ -9,11 +9,10 @@ All descritions and answers are in NoAIgnite_Recruitment_Assignment.pdf file.
 ## Built With
 
 * [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-* [Styled-components](https://styled-components.com/) - Styled components are a CSS-in-JS tool that bridges the gap between components and styling.
 * [Node.js](nodejs.org) - JavaScript enviroment
 * [Framer Motion](https://www.framer.com/api/motion/) - React animation and gesture library
 * [React-scroll](https://www.npmjs.com/package/react-scroll) - Component for animating vertical scrolling.
-
+* [Styled-components](https://styled-components.com/) - Styled components are a CSS-in-JS tool that bridges the gap between components and styling.
 
 ## Installation
 
