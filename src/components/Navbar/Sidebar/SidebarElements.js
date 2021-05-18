@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 import { FaTimes } from 'react-icons/fa';
+import { mainColor, hoverColor, secondFontFamily } from '../../../utils/globalStyles/globalStyles';
 
-const mainColor = '#F65353';
-const hoverColor = '#E04A4A';
+// const mainColor = '#F65353';
+// const hoverColor = '#E04A4A';
 
 export const SidebarContainer = styled.aside`
     position: fixed;
@@ -18,7 +19,7 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-    font-family: 'Caveat', cursive;
+    font-family: ${secondFontFamily};
     font-size: 1.5rem;
 `;
 
