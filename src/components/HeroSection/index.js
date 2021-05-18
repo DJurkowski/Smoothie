@@ -12,7 +12,7 @@ const Hero = () => {
     };
 
     return (
-        <HeroContainer>
+        <HeroContainer id="home">
             <Circle />
             <ContentContainer>
                 <ContentColumns>
