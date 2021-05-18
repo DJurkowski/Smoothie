@@ -3,9 +3,6 @@ import { Link as LinkS } from 'react-scroll';
 import { FaTimes } from 'react-icons/fa';
 import { mainColor, hoverColor, secondFontFamily } from '../../../utils/globalStyles/globalStyles';
 
-// const mainColor = '#F65353';
-// const hoverColor = '#E04A4A';
-
 export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 999;
